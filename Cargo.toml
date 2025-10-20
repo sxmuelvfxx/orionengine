@@ -1,0 +1,13 @@
+[package]
+name = "orionengine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wgpu = "22.0"
+winit = "0.30"
+cgmath = "0.18"
+bytemuck = { version = "1.15", features = ["derive"] }
+futures = "0.3"
+tokio = { version = "1.37", features = ["full"] }
+env_logger = "0.11"
